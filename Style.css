@@ -1,0 +1,1382 @@
+body{
+    background-color: gold;
+    margin: 0;
+    padding: 0;
+}
+.header-shape{
+  position: relative;
+  margin: 0;
+  width: 94%;
+  height: 4.20vw;
+  top: 0;
+  left: 3vw;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu{
+  position: absolute;
+  top: center;
+  left: 7vw;
+  font-size: 1.3vw;
+}
+.small{
+  position: absolute;
+  font-size: 2.50vw;
+}
+.login{
+  position: absolute;
+  top: center;
+  right: 4vw;
+  font-size: 1.1vw;
+}
+  
+.storage{
+  position: relative;
+  margin: 0;
+  left: 3vw;
+  width: 94%;
+  height: 195vw;
+  background-color: blue;
+}
+.photo1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.transparent{
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 44%;
+  height: 44vw;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+}
+.voted{
+  position: absolute;
+  top: 8vw;
+  font-size: 2.50vw;
+}
+.food{
+  position: absolute;
+  top: 11vw;
+  font-size: 2.50vw;
+}
+.receive{
+  position: absolute;
+  top: 23.5vw;
+  left: 7vw;
+  font-size: 1.60vw;
+}
+.every{
+  position: absolute;
+  top: 26vw;
+  left: 7vw;
+  font-size: 1.60vw;
+}
+.find{
+  position: absolute;
+  top: 28.5vw;
+  left: 7vw;
+  font-size: 1.60vw;
+}
+.button{
+  position: absolute;
+  top: 34vw;
+  background-color: black;
+  width: 33%;
+  height: 3.5vw;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.70vw;
+  border-radius: 5vw;
+}
+.guarantee{
+  position: absolute;
+  top: 39vw;
+  font-size: 1.10vw;
+}
+  
+.container{
+  position: relative;
+  top: 0;
+  left: 3vw;
+  width: 94%;
+  height: 300vw;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+.purrs{
+  position: absolute;
+  font-size: 13vw;
+  top: 5vw;
+}
+.press{
+  position: absolute;
+  font-size: 13vw;
+  top: 16vw;
+}
+  .hat1{
+    position: absolute;
+    background-color: gold;
+    width: 79px;
+    height: 34px;
+    top: 435px;
+    left: 416px;
+  }
+  .circle1_hat1{
+    position: absolute;
+    background-color: gold;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    top: 435px;
+    left: 393px;
+  }
+  .circle2_hat1{
+    position: absolute;
+    background-color: gold;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    top: 435px;
+    left: 463px;
+  }
+  .circle1_hat2{
+    position: absolute;
+    background-color: gold;
+    width: 161px;
+    height: 161px;
+    border-radius: 50%;
+    top: 468px;
+    left: 523px;
+  }
+  .hat2{
+    position: absolute;
+    background-color: gold;
+    width: 300px;
+    height: 162px;
+    top: 468px;
+    left: 305px;
+  }
+  .circle2_hat2{
+    position: absolute;
+    background-color: gold;
+    width: 161px;
+    height: 161px;
+    border-radius: 50%;
+    top: 468px;
+    left: 225px;
+  }
+  
+  .hat3{
+    position: absolute;
+    width: 206px;
+    height: 100px;
+    background-color: gold;
+    top: 576px;
+    left: 350px;
+  }
+  .circle1_hat3{
+    position: absolute;
+    background-color: gold;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 597px;
+    left: 310px;
+  }
+  .circle2_hat3{
+    position: absolute;
+    background-color: gold;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 597px;
+    left: 516px;
+  }
+  .lefthat1{
+    position: absolute;
+    background-color: gold;
+    width: 25px;
+    height: 50px;
+    left: 0;
+    top: 435px;
+  }
+  .circle_lefthat1{
+    position: absolute;
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    left: 0;
+    top: 435px;
+  }
+  .lefthat2{
+    position: absolute;
+    background-color: gold;
+    width: 120px;
+    height: 162px;
+    left: 0;
+    top: 468px;
+  }
+  .circle3_lefthat2{
+    position: absolute;
+    background-color: gold;
+    width: 161px;
+    height: 161px;
+    border-radius: 50%;
+    top: 468px;
+    left: 39px;
+  }
+  .lefthat3{
+    position: absolute;
+    background-color: gold;
+    top: 576px;
+    left: 0;
+    height: 100px;
+    width: 77px;
+  }
+  .circle_lefthat3{
+    position: absolute;
+    background-color: gold;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 597px;
+    left: 37px;
+  }
+  .righthat1{
+    position: absolute;
+    background-color: gold;
+    width: 25px;
+    height: 34px;
+    right: 0;
+    top: 435px;
+  }
+  .circle_righthat1{
+    position: absolute;
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    right: 0;
+    top: 435px;
+  }
+  .righthat2{
+    position: absolute;
+    background-color: gold;
+    width: 120px;
+    height: 162px;
+    right: 0;
+    top: 468px;
+  }
+  .circle4_righthat2{
+    position: absolute;
+    background-color: gold;
+    width: 161px;
+    height: 161px;
+    border-radius: 50%;
+    top: 468px;
+    right: 39px;
+  }
+  .righthat3{
+    position: absolute;
+    background-color: gold;
+    top: 576px;
+    right: 0;
+    height: 100px;
+    width: 77px;
+  }
+  .circle_righthat3{
+    position: absolute;
+    background-color: gold;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 597px;
+    right: 37px;
+  }
+  .squarepurrs{
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    background-color: gold;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    top: 58px;
+    left: 46%
+  }
+  .arrow1{
+    position: absolute;
+    font-size: 50px;
+    left: 48.50%;
+    top: 6px;
+  }
+  .date1{
+    position: absolute;
+    font-size: 12px;
+    left: 47.40%;
+    top: 440px;
+  }
+  .gus{
+    position: absolute;
+    font-size: 19px;
+    top: 500px;
+    left: 33%;
+  }
+  .up{
+    position: absolute;
+    font-size: 19px;
+    top: 530px;
+    left: 48%;
+  }
+  .dot1{
+    position: absolute;
+    font-size: 22px;
+    top: 515px;
+    left: 17.70%;
+  }
+  .dot2{
+    position: absolute;
+    font-size: 22px;
+    top: 515px;
+    left: 28%;
+  }
+  .dot3{
+    position: absolute;
+    font-size: 22px;
+    top: 515px;
+    right: 28.50%;
+  }
+  .dot4{
+    position: absolute;
+    font-size: 22px;
+    top: 515px;
+    right: 17.70%;
+  }
+  .according{
+    position: absolute;
+    font-size: 19px;
+    top: 500px;
+    left: 0;
+  }
+  .ans{
+    position: absolute;
+    font-size: 19px;
+    top: 530px;
+    left: 0;
+  }
+  .went{
+    position: absolute;
+    font-size: 19px;
+    top: 500px;
+    right: 0;
+  }
+  .for{
+    position: absolute;
+    font-size: 19px;
+    top: 530px;
+    right: 0;
+  }
+  .business{
+    position: absolute;
+    font-size: 23px;
+    top: 590px;
+    left: 43.30%;
+  }
+  .insider{
+    position: absolute;
+    font-size: 23px;
+    top: 615px;
+    left: 44%;
+  }
+  .buz{
+    position: absolute;
+    font-size: 39px;
+    top: 576px;
+    right: 0;
+  }
+  .ork{
+    position: absolute;
+    font-size: 30px;
+    top: 590px;
+    left: 0;
+  }
+  .black_circle1{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    top: 705px;
+    left: 45.20%;
+    font-size: 25px;
+  }
+  .black_circle2{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    top: 705px;
+    left: 50.80%;
+    font-size: 25px;
+  }
+  .container_photo2{
+    position: absolute;
+    background-color: white;
+    width: 795px;
+    height: 1600px;
+    border-radius: 10px;
+    top: 790px;
+    left: 60px;
+  }
+  .photo2{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .everything{
+    position: absolute;
+    font-size: 20px;
+    left: 36%;
+    bottom: 450px;
+  }
+  .nothing{
+    position: absolute;
+    font-size: 20px;
+    left: 38%;
+    bottom: 418px;
+  }
+  .other{
+    position: absolute;
+    font-size: 14px;
+    bottom: 390px;
+    left: 24px;
+  }
+  .ultra{
+    position: absolute;
+    font-size: 14px;
+    bottom: 365px;
+    left: 15%;
+  }
+  .why_button{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    width: 155px;
+    height: 35px;
+    border-radius: 30px;
+    bottom: 15px;
+    left: 39%;
+  }
+  .why{
+    position: absolute;
+    font-size: 14px;
+    bottom: 10px;
+    left: 42.60%;
+  }
+  .container_photo3{
+    position: absolute;
+    background-color: white;
+    width: 795px;
+    height: 1600px;
+    border-radius: 10px;
+    top: 2450px;
+    left: 60px;
+  }
+  .photo3{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .quiz_button{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    width: 155px;
+    height: 35px;
+    border-radius: 30px;
+    bottom: 815px;
+    left: 39%;
+  }
+  .quiz{
+    position: absolute;
+    font-size: 14px;
+    bottom: 810px;
+    left: 43.20%;
+  }
+  .check1{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    font-size: 14px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: 665px;
+    left: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .check2{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    font-size: 14px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: 610px;
+    left: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .check3{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    font-size: 14px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    top: 555px;
+    left: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .check1_text{
+    position: absolute;
+    font-size: 14px;
+    top: 672px;
+    left:  60px;
+  }
+  .check2_text{
+    position: absolute;
+    font-size: 14px;
+    top: 617px;
+    left:  60px;
+  }
+  .check3_text{
+    position: absolute;
+    font-size: 14px;
+    top: 562px;
+    left:  60px;
+  }
+  .arrowdown1{
+    position: absolute;
+    font-size: 40px;
+    top: 630px;
+    right:  25px;
+  }
+  .arrowdown2{
+    position: absolute;
+    font-size: 40px;
+    top: 575px;
+    right:  25px;
+  }
+  .arrowdown3{
+    position: absolute;
+    font-size: 40px;
+    top: 520px;
+    right:  25px;
+  }
+  .line1{
+  width: 755px;
+  height: 2px;
+  background-color: black;
+  border: none;
+  position: absolute;
+  left: 20px;
+  top: 660px;
+  }
+  .line2{
+  width: 755px;
+  height: 2px;
+  background-color: black;
+  border: none;
+  position: absolute;
+  left: 20px;
+  top: 605px;
+  }
+  .line3{
+  width: 755px;
+  height: 2px;
+  background-color: black;
+  border: none;
+  position: absolute;
+  left: 20px;
+  top: 550px;
+  }
+  .howitworks{
+    font-size: 20px;
+    display: flex;
+    position: absolute;
+    left: 40.50%;
+  }
+  
+  .health{
+    position: absolute;
+    font-size: 29px;
+    top: 6068px;
+    left: 95px;
+  }
+  .switching{
+    position: absolute;
+    font-size: 29px;
+    top: 6110px;
+    left: 350px;
+  }
+  .container_photo4{
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 7px;
+    width: 205px;
+    height: 510px;
+    top: 6210px;
+    left: 30px;
+  }
+  .photo4{
+    position: absolute;
+    width: 205px;
+    height: 390px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .vitching{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 0;
+    bottom: 127px;
+  }
+  .benefit_1{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    left: 0;
+    bottom: 65px;
+  }
+  .hairballs{
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    left: 0;
+    bottom: 45px;
+  }
+  .container_photo5{
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 7px;
+    width: 460px;
+    height: 510px;
+    top: 6210px;
+    left: 260px;
+  }
+  .photo5{
+    position: absolute;
+    width: 460px;
+    height: 390px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .litter{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 17px;
+    bottom: 127px;
+  }
+  .benefit_2{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    left: 185px;
+    bottom: 65px;
+  }
+  .nutrients{
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    left: 17px;
+    bottom: 45px;
+  }
+  .end{
+    position: absolute;
+    color: black;
+    font-size: 13px;
+    left: 17px;
+    bottom: 28px;
+  }
+  .circle_half{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    font-size: 33px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 17px;
+    bottom: 125px;
+  }
+  .container_photo6{
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 7px;
+    width: 205px;
+    height: 510px;
+    top: 6210px;
+    right: 30px;
+  }
+  .photo6{
+    position: absolute;
+    width: 205px;
+    height: 390px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  .energetic{
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    left: 17px;
+    bottom: 127px;
+  }
+  .benefit_3{
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    right: 0;
+    bottom: 65px;
+  }
+  .hydra{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    left: 17px;
+    bottom: 45px;
+  }
+  .muscles{
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    left: 17px;
+    bottom: 28px;
+  }
+  .circle_half2{
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid white;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    font-size: 33px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 17px;
+    bottom: 125px;
+  }
+  .container_of{
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 30px;
+    width: 355px;
+    height: 45px;
+    top: 6719px;
+    left: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .of{
+    position: absolute;
+    font-size: 15px;
+  }
+  .arrow_left{
+    position: absolute;
+    bottom: center;
+    left: 10px;
+    font-size: 22px;
+  }
+  .arrow_right{
+    position: absolute;
+    bottom: center;
+    right: 10px;
+    font-size: 22px;
+  }
+  .start_quiz{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 13px;
+    top: 6765px;
+    left: 413px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container2{
+    position: absolute;
+    top: 6844px;
+    left: 30px;
+    width: 915px;
+    height: 2755px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+  }
+  .perfect{
+    position: absolute;
+    font-size: 28px;
+    top: 77px;
+    left: center;
+    
+  }
+  .container_elizabeth{
+    position: absolute;
+    top: 250px;
+    left: center;
+    width: 450px;
+    height: 262px;
+    border-radius: 10px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+  }
+  .circle_photo7{
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    top: 185px;
+    left: center;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo7{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+  }
+  .so-so{
+    position: absolute;
+    font-size: 14.70px;
+    top: 83px;
+    left: 13px;
+  }
+  .enthusia{
+    position: absolute;
+    font-size: 14.70px;
+    top: 108px;
+    left: 13px;
+  }
+  .frequently{
+    position: absolute;
+    font-size: 14.70px;
+    top: 133px;
+    left: 13px;
+  }
+  .used{
+    position: absolute;
+    font-size: 14.70px;
+    top: 158px;
+    left: 13px;
+  }
+  .elizabeth{
+    position: absolute;
+    font-size: 14.70px;
+    top: 205px;
+    left: center;
+  }
+  .rate_star2{
+    position: absolute;
+    top: 470px;
+    left: center;
+    width: 173px;
+    height: 50px;
+    background-color: orange;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+  }
+  .container_jei{
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 210px;
+    height: 262px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+  .photo8{
+    position: absolute;
+    top: 185px;
+    right: 0;
+    width: 55px;
+    height: 155px;
+  }
+  .after{
+    position: absolute;
+    font-size: 14.70px;
+    top: 83px;
+    left: 13px;
+  }
+  .running{
+    position: absolute;
+    font-size: 14.70px;
+    top: 108px;
+    left: 13px;
+  }
+  .vibrant{
+    position: absolute;
+    font-size: 14.70px;
+    top: 133px;
+    left: 13px;
+  }
+  .anything{
+    position: absolute;
+    font-size: 14.70px;
+    top: 158px;
+    left: 13px;
+  }
+  .jei{
+    position: absolute;
+    font-size: 14.70px;
+    top: 205px;
+    right: 0;
+  }
+  .rate_star3{
+    position: absolute;
+    top: 490px;
+    right: 0;
+    width: 65px;
+    height: 50px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+  .star3{
+    position: absolute;
+    right: 0;
+    font-size: 23px;
+  }
+  .container_star{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 210px;
+    height: 262px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #AAD48D;
+    display: flex;
+    justify-content: center;
+  }
+  .photo9{
+    position: absolute;
+    top: 185px;
+    left: 0;
+    width: 58px;
+    height: 155px;
+    
+  }
+  .star{
+    position: absolute;
+    font-size: 14.70px;
+    top: 83px;
+    left: 0;
+  }
+   .ctive{
+    position: absolute;
+    font-size: 14.70px;
+    top: 108px;
+    left: 0;
+  }
+  .F{
+    position: absolute;
+    font-size: 14.70px;
+    top: 205px;
+    left: 0;
+  }
+  .rate_star1{
+    position: absolute;
+    top: 470px;
+    left: 0;
+    width: 65px;
+    height: 50px;
+    background-color: #ADD48D;
+    font-size: 23px;
+    display: flex;
+    justify-content: 0;
+    align-items: center;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  .black1_circle1{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    top: 580px;
+    left: 45.20%;
+    font-size: 25px;
+  }
+  .black2_circle2{
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    top: 580px;
+    left: 50.80%;
+    font-size: 25px;
+  }
+  
+  .container_photo10{
+    position: absolute;
+    background-color: white;
+    width: 795px;
+    height: 1600px;
+    border-radius: 10px;
+    top: 660px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .photo10{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .chop{
+    position: absolute;
+    font-size: 20px;
+    left: center;
+    bottom: 421px;
+  }
+  .proverbial{
+    position: absolute;
+    font-size: 14px;
+    bottom: 390px;
+    left: center;
+  }
+  .extruded{
+    position: absolute;
+    font-size: 14px;
+    bottom: 365px;
+    left: center;
+  }
+  .kitchen{
+    position: absolute;
+    font-size: 14px;
+    bottom: 340px;
+    left: center;
+  }
+  .start_quiz_button{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    width: 155px;
+    height: 35px;
+    border-radius: 30px;
+    bottom: 15px;
+    left: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .start{
+    position: absolute;
+    font-size: 14px;
+    bottom: center;
+    left: center;
+  }
+  
+  .container_last{
+    position: absolute;
+    background-color: #AAD48D;
+    width: 795px;
+    height: 315px;
+    border-radius: 10px;
+    top: 2375px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  .money_back{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    top: 80px;
+    left: center;
+  }
+  .refund{
+    position: absolute;
+    font-size: 16px;
+    top: 120px;
+    left: center;
+  }
+  .cats_wont{
+    position: absolute;
+    font-size: 16px;
+    top: 145px;
+    left: center;
+  }
+  .last_button{
+    position: absolute;
+    background-color: gold;
+    border: solid black;
+    width: 155px;
+    height: 35px;
+    border-radius: 30px;
+    bottom: 75px;
+    left: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .last_start{
+    position: absolute;
+    font-size: 14px;
+    bottom: center;
+    left: center;
+  }
+  .terms{
+    position: absolute;
+    font-size: 13px;
+    bottom: 30px;
+    left: center;
+  }
+  .photo_last{
+    position: absolute;
+    width: 205px;
+    height: 205px;
+    top: 2255px;
+    left: center;
+  }
+  .text{
+    position: absolute;
+    font-size: 11px;
+    top: 9720px;
+    left: 65px;
+    color: black;
+  }
+  .number{
+    position: absolute;
+    font-size: 11px;
+    top: 9745px;
+    left: 65px;
+    color: black;
+  }
+  .email{
+    position: absolute;
+    font-size: 11px;
+    top: 9785px;
+    left: 65px;
+    color: black;
+  }
+  .address{
+    position: absolute;
+    font-size: 11px;
+    top: 9810px;
+    left: 65px;
+    color: black;
+  }
+  .why_smalls{
+    position: absolute;
+    font-size: 10px;
+    top: 9880px;
+    left: 65px;
+    color: black;
+  }
+  .faqs{
+    position: absolute;
+    font-size: 10px;
+    top: 9880px;
+    left: 270px;
+    color: black;
+  }
+  .instagram{
+    position: absolute;
+    font-size: 10px;
+    top: 9880px;
+    left: 470px;
+    color: black;
+  }
+  
+  .behind{
+    position: absolute;
+    font-size: 10px;
+    top: 9905px;
+    left: 65px;
+    color: black;
+  }
+  .careers{
+    position: absolute;
+    font-size: 10px;
+    top: 9905px;
+    left: 270px;
+    color: black;
+  }
+  .twitter{
+    position: absolute;
+    font-size: 10px;
+    top: 9905px;
+    left: 470px;
+    color: black;
+  }
+  
+  .review{
+    position: absolute;
+    font-size: 10px;
+    top: 9930px;
+    left: 65px;
+    color: black;
+  }
+  .stores{
+    position: absolute;
+    font-size: 10px;
+    top: 9930px;
+    left: 270px;
+    color: black;
+  }
+  .tiktok{
+    position: absolute;
+    font-size: 10px;
+    top: 9930px;
+    left: 470px;
+    color: black;
+  }
+  
+  .compare{
+    position: absolute;
+    font-size: 10px;
+    top: 9955px;
+    left: 65px;
+    color: black;
+  }
+  .privacypolicy{
+    position: absolute;
+    font-size: 10px;
+    top: 9955px;
+    left: 270px;
+    color: black;
+  }
+  .facebook{
+    position: absolute;
+    font-size: 10px;
+    top: 9955px;
+    left: 470px;
+    color: black;
+  }
+  
+  .startquiz{
+    position: absolute;
+    font-size: 10px;
+    top: 9980px;
+    left: 65px;
+    color: black;
+  }
+  .termsofuse{
+    position: absolute;
+    font-size: 10px;
+    top: 9980px;
+    left: 270px;
+    color: black;
+  }
+  
+  .account{
+    position: absolute;
+    font-size: 10px;
+    top: 10005px;
+    left: 65px;
+    color: black;
+  }
+  .shipping{
+    position: absolute;
+    font-size: 10px;
+    top: 10005px;
+    left: 270px;
+    color: black;
+  }
+  
+  .refundpolicy{
+    position: absolute;
+    font-size: 10px;
+    top: 10030px;
+    left: 270px;
+    color: black;
+  }
+  .footer{
+    position: absolute;
+    font-size: 10px;
+    top: 10140px;
+    left: 65px;
+    color: black;
+  }
+  .bottom_body{
+    position: absolute;
+    background-color: gold;
+    width: 50px;
+    height: 50px;
+    top: 10130px;
+    left: 0;
+  }
+  .TITLE{
+    text-align: center;
+  }
+  .login{
+    text-align: right;
+  }
